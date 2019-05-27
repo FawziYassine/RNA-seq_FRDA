@@ -86,16 +86,15 @@ Run the following commands sequentially:
 
 #####  1. Download the reads of each sample from SRA using SRA Toolkit.
 
-      nohup sh bash-scripts/download-sra-reads.sh > download-sra-reads.out &       
+    nohup sh bash-scripts/download-sra-reads.sh > download-sra-reads.out &       
  
 ##### 2.   Align (map) the reads of each sample to the Human Genome hg32 using HISAT2. 
                                                                      
-      nohup sh bash-scripts/hisat2.sh > hisat2.out &
+     nohup sh bash-scripts/hisat2.sh > hisat2.out &
 
 ##### 3. Quantify the abundance of genes in each sample using HTseq.
       
-      nohup sh bash-scripts/htseq.sh > htseq.out &
-
+     nohup sh bash-scripts/htseq.sh > htseq.out &
  
 ##### 4. Differential Expression Analysis using Deseq2.
 

@@ -1,10 +1,10 @@
-P.S: Visit the [Results](Results.md) page before continuing on this page.  
+P.S: Visit the [Results](Results.md) page before you continue on this page.  
 -----
 
 
 # Introduction
 
-The authors in (Napierala et al., 2017) used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (*CTL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
+The authors in (Napierala et al., 2017) used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
 
 # Antioxidants and **FRDA** 
 
@@ -16,17 +16,17 @@ An endogenous cellular defense mechanism against oxidative stress caused by free
 
 What makes matters worse for **FRDA** patients is that their endogenous cellular defense mechanism against oxidative stress is defective in three major ways: 1) The **Nrf2** pathway, 2) The **Glutathione** homeostasis, and 3) The **PGC-1α** and **mitochondrial biogenesis** pathways.  
 
-In comparison with the **CTL** group, the **FRDA** group showed a direct and significant downregulation of two antioxidant genes: **NQO1**, **TXN2** and **PRKAG1**. The downregulation of **PRKAG1** leads to the downregulation of several other antioxidant genes (like **SOD** and **HO-1**) because **PRKAG1** is involved in their expression.  
+In comparison with the **CTRL** group, the **FRDA** group showed a direct and significant downregulation of two antioxidant genes: **NQO1**, **TXN2** and **PRKAG1**. The downregulation of **PRKAG1** leads to the downregulation of several other antioxidant genes (like **SOD** and **HO-1**) because **PRKAG1** is involved in their expression.  
 
 **NQO1** is an enzyme that is encoded by the NQO1 gene. It is a 2-electron reductase that forms homodimers and performs two-electron reduction of quinones to hydroquinones.  
-**TXN2** is a member of the thioredoxin family, a group of small multif unctional redox-active proteins. The encoded protein may play important roles in the regulation of the mitochondrial membrane potential and in protection against oxidant-induced apoptosis.  
+**TXN2** is a member of the thioredoxin family, a group of small multifUnctional redox-active proteins. The encoded protein may play important roles in the regulation of the mitochondrial membrane potential and in protection against oxidant-induced apoptosis.  
 
 **PRKAG1** encodes one of three subunits of the enzyme **AMPK**, (Adenosine 5′ Monophosphate-Activated Protein Kinase). **AMPK** plays a role in cellular energy homeostasis. Studies have shown 	that **AMPK** increases the production of certain antioxidant proteins, including **Nrf2**, **SOD**, **HO-1**, **NRF1** (Nuclear Respiratory Factor 1), and **PGC-1α**  (peroxisome proliferator-activated receptor gamma coactivator 1 α) (Joo et al., 2016; Kukidome et al., 2006).  
 
   
 # Therapuetic Potential
 
-Sulforaphane (**SFN**) which is a phytochemical found in Broccoli sprouts is able to correct these three defects, and this is shown in sections [2.1.1](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.1), [2.1.2](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.2) and [2.1.3](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.3) respectively in [my article](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/) where I further highlight the genetic and other molecular mechanisms through which **SFN** found in Broccoli sprouts might confer therapeutic benefits to **FRDA** patients. Moreover, most of the abbreviations used here are defined in that article.
+Sulforaphane (**SFN**) which is a phytochemical found in Broccoli sprouts is able to correct these three defects, and this is shown in sections [2.1.1](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.1), [2.1.2](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.2) and [2.1.3](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.3) respectively in [my article](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/) where I further highlight the genetic and other molecular mechanisms through which **SFN** might confer therapeutic benefits to **FRDA** patients. Moreover, most of the abbreviations used here are defined in that article.
 
 # References
 `
