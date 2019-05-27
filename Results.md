@@ -4,11 +4,11 @@ From my analysis, I have identified 4676 [2693 (up_regulated) + 1983 (down_regul
 
 In comparison with the **CTL** group, the **FRDA** group showed a direct and significant downregulation of three antioxidant genes: **NQO1**, **TXN2** and **PRKAG1**. The downregulation of **PRKAG1** leads to the indirect downregulation of several other antioxidant genes  (like **SOD** and **HO-1**) because **PRKAG1** is involved in their expression.  
 
-**Table1** shows the directly and significantly down-regulated antioxidant genes. The third column (Percentage of Controls) shows the percentage of average expression in **FRDA** samples of average expression in control samples.  
+**Table1** shows the directly and significantly down-regulated antioxidant genes. The third column (Percentage of Controls) shows the percentage of average expression in **FRDA** samples of average expression in control samples. For example, frataxin gene (FXN) has average expression in **FRDA** samples that is equivilant to 32 % of average expression in **CTL** samples.  
              
 **Table1**: The directly and significantly down-regulated antioxidant genes.  
 
-Gene          |          Name                                  | Percentage of Controlsl (%)
+Gene          |          Name                                  | Percentage of Controls (%)
 ------------- | ---------------------------------------------- | ----------------------  
 **NQO1**      | NAD(P)H Quinone Dehydrogenase 1                  | 66
 **TXN2**      | Thioredoxin-2                                    | 89
@@ -23,7 +23,9 @@ A scatter plot of log2 fold changes (on the y-axis) versus the mean of normalize
 ![](plots/ma_plot.png)
 
 ### Volcano-plot
-A scatter plot that shows statistical significance (P value) versus magnitude of change (fold change). It enables quick visual identification of genes with large fold changes that are also statistically significant. These may be the most biologically significant genes. In a volcano plot, the most upregulated genes are towards the right, the most downregulated genes are towards the left, and the most statistically significant genes are towards the top.
+A scatter plot that shows statistical significance (P value) versus magnitude of change (fold-change). It enables quick visual identification of genes with large fold changes that are also statistically significant. These may be the most biologically significant genes. In a volcano plot, the most upregulated genes are towards the right, the most downregulated genes are towards the left, and the most statistically significant genes are towards the top. Fold-change calculates the average expression in **FRDA** samples w.r.t the average expression in **CTL** samples.    
+
+For example, FXN is in the very top of the plot. FXN has log2 fold-change equal to -1.62 (i.e. the average expression in **FRDA** samples is equivilant to 32 % of average expression in **CTL** samples).  
 
 ![](plots/volcano_plot.png)
 
