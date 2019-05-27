@@ -24,4 +24,4 @@ In my bioinformatic analysis, other than using newer tools and reference genome,
 
 # References
 
-Napierala, J. S., Li, Y., Lu, Y., Lin, K., Hauser, L. A., Lynch, D. R., & Napierala, M. (2017). Comprehensive analysis of gene expression patterns in Friedreich’s ataxia fibroblasts by RNA sequencing reveals altered levels of protein synthesis factors and solute carriers. Disease Models & Mechanisms, 10(11), 1353–1369. https://doi.org/10.1242/dmm.030536
+- Napierala, J. S., Li, Y., Lu, Y., Lin, K., Hauser, L. A., Lynch, D. R., & Napierala, M. (2017). Comprehensive analysis of gene expression patterns in Friedreich’s ataxia fibroblasts by RNA sequencing reveals altered levels of protein synthesis factors and solute carriers. Disease Models & Mechanisms, 10(11), 1353–1369. https://doi.org/10.1242/dmm.030536
