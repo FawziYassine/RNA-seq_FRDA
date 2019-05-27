@@ -1,4 +1,4 @@
-# Bioinformatic analysis of RNA-seq data to find Differentially Expressed Genes (DEGs) between Friedreich's Ataxia (FRDA) patients and unaffected individuals (re-analyis)
+# \center Bioinformatic analysis of RNA-seq data to find Differentially Expressed Genes (DEGs) between Friedreich's Ataxia (FRDA) patients and unaffected individuals. \center`
 
 
 In this project I report the bioinformatic analysis of RNA-seq data collected from 35 individuals (18 FRDA and 17 unaffected controls) to find DEGs between FRDA patients and unaffected individuals. The RNA sequencing experiment was conducted in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)).
@@ -26,3 +26,6 @@ Whereas, the authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/p
 
 In my bioinformatic analysis, other than using newer tools and reference genome, I have implemented the bioinformatic analysis specifications mentioned in (Napierala et al., 2017) as closely as possible.
 
+# References
+
+Napierala, J. S., Li, Y., Lu, Y., Lin, K., Hauser, L. A., Lynch, D. R., & Napierala, M. (2017). Comprehensive analysis of gene expression patterns in Friedreich’s ataxia fibroblasts by RNA sequencing reveals altered levels of protein synthesis factors and solute carriers. Disease Models & Mechanisms, 10(11), 1353–1369. https://doi.org/10.1242/dmm.030536
