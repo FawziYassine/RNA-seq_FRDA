@@ -41,7 +41,8 @@ Principl Components Analysis (PCA) is used to visualize sample-to-sample distanc
 ![](plots/fxn_counts_plot.png)
 
 ----------
-# P.S: Visit the [Clinical Significance and Therapuetic Potential](Clinical_Significance_and_Therapuetic_Potential.md) next.
+P.S: Visit the [Clinical Significance and Therapuetic Potential](Clinical_Significance_and_Therapuetic_Potential.md) next.
+----------
 
 # References
 
