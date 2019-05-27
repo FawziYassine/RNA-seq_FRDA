@@ -1,4 +1,4 @@
-# Instructions for Initial Setup and Installation of Some Analysis Tools on AWS Linux Instance
+# Instructions for Initial Setup and Installation of Some Analysis Tools on [AWS Linux instance](https://aws.amazon.com/amazon-linux-ami/)
 
 Run the following commands in the terminal of your AWS Linux instance:
 
