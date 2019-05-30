@@ -4,7 +4,7 @@ P.S: Visit the [Results](Results.md) page before you continue on this page.
 
 # Introduction
 
-The authors in (Napierala et al., 2017) used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
+The authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
 
 # Antioxidants and **FRDA** 
 
