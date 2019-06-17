@@ -4,7 +4,7 @@ Run the following commands in the terminal of your AWS Linux instance:
 
 1.  Initial setup
 
-    sudo adduser fawzi
+    sudo adduser fawzi  
     sudo usermod -aG sudo fawzi
     su - fawzi
     mkdir sequencing
