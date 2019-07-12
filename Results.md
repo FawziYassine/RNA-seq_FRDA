@@ -4,17 +4,19 @@ From my analysis, I have identified 4676  significant Differentially Expressed G
 
 The authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)) used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells because these cells are the most defective ones in **FRDA**. Even then, I am still able to find significantly differentiated genes between the two groups. Interestingly, antioxidant genes were downregulated in **FRDA** cells.  
 
-In comparison with the **CTRL** group (samples), the **FRDA** group showed a direct and significant downregulation of three antioxidant genes: **NQO1**, **TXN2** and **PRKAG1**. In addition, the downregulation of **PRKAG1** leads to the indirect downregulation of several other antioxidant genes  (like **SOD** and **HO-1**) because **PRKAG1** is involved in their expression.  
+Compared with the **CTRL** group (samples), the **FRDA** group shows a direct and significant downregulation of the frataxin gene (**FXN**). **FXN** has an average expression in **FRDA** samples that is equivilant to 32 % of the average expression in **CTRL** samples  (**DESeq2** calculated the corresponding **log2FoldChange** to be equal to -1.62).
 
-**Table1** shows the directly and significantly down-regulated antioxidant genes. The third column (Percentage of Controls(%)) shows the percentage of the average expression in **FRDA** samples of the average expression in control samples. For example, frataxin gene (**FXN**) has an average expression in **FRDA** samples that is equivilant to 32 % of the average expression in **CTRL** samples.  
-             
+Moreover, comparison with the **CTRL** group (samples), the **FRDA** group showed a direct and significant downregulation of expression of three antioxidant genes: **NQO1**, **TXN2** and **PRKAG1**. In addition, the downregulation of **PRKAG1** leads to the indirect downregulation of several other antioxidant genes  (like **SOD** and **HO-1**) because **PRKAG1** is involved in their expression.  
+
+**Table1** shows the directly and significantly down-regulated antioxidant genes. The third column (log2FoldChange) shows the log base-2 of the fold-change in the average expression in **FRDA** samples when compared with the average expression in **CTRL** samples . Whereas the fourth column (Percentage of Controls(%)) shows the percentage of the average expression in **FRDA** samples of the average expression in **CTRL** samples. For example, **NQO1** has an average expression in **FRDA** samples that is equivilant to 66 % of the average expression in **CTRL** samples.
+
 **Table1**: The directly and significantly down-regulated antioxidant genes.  
 
-Gene          |          Name                                  | Percentage of Controls (%)
-------------- | ---------------------------------------------- | ----------------------  
-**NQO1**      | NAD(P)H Quinone Dehydrogenase 1                  | 66
-**TXN2**      | Thioredoxin-2                                    | 89
-**PRKAG1**    | 5'-AMP-activated protein kinase subunit gamma-1  | 86
+Gene          |          Name                                  | log2FoldChange | Percentage of Controls (%)
+------------- | ---------------------------------------------- | ------------------ | ----------------------  
+**NQO1**      | NAD(P)H Quinone Dehydrogenase 1                  | -0.59 | 66
+**TXN2**      | Thioredoxin-2                                    | -0.17 | 89
+**PRKAG1**    | 5'-AMP-activated protein kinase subunit gamma-1  | -0.21 | 86
 
 ---------
 
