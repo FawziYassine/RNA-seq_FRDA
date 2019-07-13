@@ -23,6 +23,11 @@ Whereas, the authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/p
    2. HTSeq (version 0.5.3) for counting how many sequencing reads overlap each gene.
    3. DESeq2 (version 1.10.1) for differential expression analysis.
 
+
+---
+Analysis Instructions are provided [here](analysis_instructions.md).
+---
+
 ---
 P.S: Visit the [Results](Results.md) page next.
 ---
