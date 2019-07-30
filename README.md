@@ -1,4 +1,4 @@
-# Bioinformatic analysis of RNA-seq data to find Differentially Expressed Genes (DEGs) between Friedreich's Ataxia (FRDA) patients and unaffected individuals.
+# Bioinformatic analysis of RNA-seq data to find Differentially Expressed Genes (DEGs) between Friedreich's Ataxia (FRDA) Patients and Unaffected Individuals
 
 In this project I report the bioinformatic analysis of RNA-seq data collected from 35 individuals (18 FRDA and 17 unaffected individuals) to find DEGs between FRDA patients and unaffected individuals. I have used an [AWS Linux instance](https://aws.amazon.com/amazon-linux-ami/) for running the analysis. Instructions for the analysis can be found at [analysis_instructions.md](analysis_instructions.md).
 
