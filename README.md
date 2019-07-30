@@ -2,7 +2,7 @@
 
 In this project I report the bioinformatic analysis of RNA-seq data collected from 35 individuals (18 FRDA and 17 unaffected individuals) to find DEGs between FRDA patients and unaffected individuals. I have used an [AWS Linux instance](https://aws.amazon.com/amazon-linux-ami/) for running the analysis. Instructions for the analysis can be found at [analysis_instructions.md](analysis_instructions.md).
 
-The RNA sequencing experiment was conducted in The RNA sequencing experiment was conducted in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)). Actually, the authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)) have conducted the analysis of RNA-seq data they had collected.  
+The RNA sequencing experiment was conducted in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)). Actually, the authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)) have conducted the analysis of RNA-seq data they had collected.  
 
 
 However, I have used a **pipeline of analysis tools** and a **Reference Genome** that are newer than those used by ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)). 
