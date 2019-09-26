@@ -11,7 +11,7 @@ Run the following commands in the terminal of your AWS Linux instance:
     mkdir sequencing/tools  
     mkdir sequencing/projects  
     mkdir sequencing/projects/RNA-seq_FRDA  
-    mkdir sequencing/projects/RNA-seq_FRDA/data  
+    sudo chmod -R ugo+rwx /data
     cd sequencing/tools
 ---
 
@@ -23,7 +23,8 @@ Run the following commands in the terminal of your AWS Linux instance:
   
   Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
                            
-    export PATH=$PATH:/home/fawzi/sequencing/tools/sratoolkit.2.9.6-ubuntu64/bin  
+        export PATH=$PATH:/home/fawzi/sequencing/tools/sratoolkit.2.9.6-1-ubuntu64/bin  
+   
     source ~/.bashrc  
 ---
 
@@ -48,7 +49,8 @@ Run the following commands in the terminal of your AWS Linux instance:
   
   Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
     
-    export PATH=$PATH:/home/fawzi/sequencing/tools/samtools-1.9  
+        export PATH=$PATH:/home/fawzi/sequencing/tools/samtools-1.9  
+
     source ~/.bashrc  
 ---
 
@@ -60,7 +62,8 @@ Run the following commands in the terminal of your AWS Linux instance:
     
   Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
     
-    export PATH=$PATH:/home/fawzi/sequencing/tools/hisat2-2.1.0   
+        export PATH=$PATH:/home/fawzi/sequencing/tools/hisat2-2.1.0   
+ 
     source ~/.bashrc  
 ---
 
