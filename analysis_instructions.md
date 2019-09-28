@@ -64,7 +64,11 @@ Run the following commands in the terminal of your AWS Linux instance:
     
         export PATH=$PATH:/home/fawzi/sequencing/tools/hisat2-2.1.0   
  
-    source ~/.bashrc  
+    source ~/.bashrc
+ 
+ Download reference genome index
+ wget -P /data ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/grch38_tran.tar.gz
+ 
 ---
 
 5. Installing UCSC Genome hg38 index
