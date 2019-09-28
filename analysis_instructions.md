@@ -68,7 +68,7 @@ Run the following commands in the terminal of your AWS Linux instance:
  
  Download reference genome index
  wget -P /data ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/grch38_tran.tar.gz
- 
+ tar -xvzf grch38_tran.tar.gz
 ---
 
 5. Installing UCSC Genome hg38 index
