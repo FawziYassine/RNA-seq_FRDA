@@ -51,7 +51,7 @@ Run the following commands in the terminal of your AWS Linux instance:
     
         export PATH=$PATH:/home/fawzi/sequencing/tools/samtools-1.9  
 
-    source ~/.bashrc  
+        source ~/.bashrc  
 ---
 
 4. HISAT2
@@ -64,9 +64,10 @@ Run the following commands in the terminal of your AWS Linux instance:
     
         export PATH=$PATH:/home/fawzi/sequencing/tools/hisat2-2.1.0   
  
-    source ~/.bashrc 
+        source ~/.bashrc 
  
- Download reference genome index 
+ Download reference genome index: 
+ 
  wget -P /data ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/grch38_tran.tar.gz 
  tar -xvzf grch38_tran.tar.gz 
 ---
