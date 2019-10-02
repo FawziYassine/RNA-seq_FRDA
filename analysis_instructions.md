@@ -4,7 +4,7 @@ Run the following commands in the terminal of your AWS Linux instance:
 
 1.  Initial setup
 
-        sudo adduser fawzi  
+       ]sudo adduser fawzi  
         sudo usermod -aG sudo fawzi  
         su - fawzi  
         mkdir sequencing  
@@ -24,7 +24,7 @@ Run the following commands in the terminal of your AWS Linux instance:
   Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
                            
         export PATH=$PATH:/home/fawzi/sequencing/tools/sratoolkit.2.9.6-1-ubuntu64/bin  
-   
+   ~/sequencing/tools/
         source ~/.bashrc  
 ---
 
@@ -35,17 +35,17 @@ Run the following commands in the terminal of your AWS Linux instance:
         tar -vxjf ~/sequencing/tools/samtools-1.9.tar.bz2 -C ~/sequencing/tools/ 
     
   Install updates and required packages on Ubuntu 18.04 (for running make):  
-    
-    cd samtools-1.9  
-    sudo apt-get update  
-    sudo apt-get install gcc  
-    sudo apt-get install make  
-    sudo apt-get install libbz2-dev  
-    sudo apt-get install zlib1g-dev  
-    sudo apt-get install libncurses5-dev  
-    sudo apt-get install libncursesw5-dev  
-    sudo apt-get install liblzma-dev  
-    make  
+  
+        cd ~/sequencing/tools/samtools-1.9/ 
+        sudo apt-get update  
+        sudo apt-get install gcc  
+        sudo apt-get install make  
+        sudo apt-get install libbz2-dev  
+        sudo apt-get install zlib1g-dev  
+        sudo apt-get install libncurses5-dev  
+        sudo apt-get install libncursesw5-dev  
+        sudo apt-get install liblzma-dev  
+        make  
   
   Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
     
@@ -56,32 +56,32 @@ Run the following commands in the terminal of your AWS Linux instance:
 
 4. HISAT2
 
-    wget http://ccb.jhu.edu/software/hisat2/dl/hisat2-2.1.0-Linux_x86_64.zip  
-    unzip hisat2-2.1.0-jLinux_x86_64.zip  
+       wget http://ccb.jhu.edu/software/hisat2/dl/hisat2-2.1.0-Linux_x86_64.zip -P ~/sequencing/tools/  
+       unzip ~/sequencing/tools/hisat2-2.1.0-Linux_x86_64.zip -d ~/sequencing/tools/ 
     
     
   Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
     
-        export PATH=$PATH:/home/fawzi/sequencing/tools/hisat2-2.1.0   
+       export PATH=$PATH:/home/fawzi/sequencing/tools/hisat2-2.1.0   
  
-        source ~/.bashrc 
+       source ~/.bashrc 
 ---
 
 5. Installing UCSC Genome hg38 index
 
-    wget -P /data ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/hg38.tar.gz  
-    tar -xzvf /data/hg38.tar.gz -C /data  
+       wget  ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/hg38.tar.gz -P /data   
+       tar -xzvf /data/hg38.tar.gz -C /data  
  ---
  
 6. HTseq
 
-      pip install HTSeq== 0.11.1
+       pip install HTSeq== 0.11.1
  ---
  
 7. Installing gencode v28 hg38 gene annotations
 
-    cd /home/fawzi/sequencing/projects/RNA-seq_FRDA```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````  
-    wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/gencode.v28.annotation.gtf.gz  
+       cd /home/fawzi/sequencing/projects/RNA-seq_FRDA  
+       wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/gencode.v28.annotation.gtf.gz  
     gunzip gencode.v28.annotation.gtf.gz  
 ---
 
