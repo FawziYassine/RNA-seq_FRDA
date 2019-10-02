@@ -4,15 +4,15 @@ Run the following commands in the terminal of your AWS Linux instance:
 
 1.  Initial setup
 
-    sudo adduser fawzi  
-    sudo usermod -aG sudo fawzi  
-    su - fawzi  
-    mkdir sequencing  
-    mkdir sequencing/tools  
-    mkdir sequencing/projects  
-    mkdir sequencing/projects/RNA-seq_FRDA  
-    sudo chmod -R ugo+rwx /data 
-    cd sequencing/tools
+        sudo adduser fawzi  
+        sudo usermod -aG sudo fawzi  
+        su - fawzi  
+        mkdir sequencing  
+        mkdir sequencing/tools  
+        mkdir sequencing/projects  
+        mkdir sequencing/projects/RNA-seq_FRDA  
+        sudo chmod -R ugo+rwx /data 
+        cd sequencing/tools
 ---
 
 2. Installing SRA Toolkit
