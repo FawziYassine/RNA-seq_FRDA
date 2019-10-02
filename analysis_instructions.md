@@ -24,7 +24,7 @@ Run the following commands in the terminal of your AWS Linux instance:
   Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
                            
         export PATH=$PATH:/home/fawzi/sequencing/tools/sratoolkit.2.9.6-1-ubuntu64/bin  
-   ~/sequencing/tools/
+  
         source ~/.bashrc  
 ---
 
