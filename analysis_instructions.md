@@ -65,18 +65,12 @@ Run the following commands in the terminal of your AWS Linux instance:
         export PATH=$PATH:/home/fawzi/sequencing/tools/hisat2-2.1.0   
  
         source ~/.bashrc 
- 
- Download reference genome index: 
- 
-    wget -P /data ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/grch38_tran.tar.gz 
-    tar -xvzf grch38_tran.tar.gz 
 ---
 
 5. Installing UCSC Genome hg38 index
 
-    cd /home/fawzi/sequencing/projects/RNA-seq_FRDA/data   
-    wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/hg38.tar.gz  
-    tar -xzvf hg38.tar.gz  
+    wget -P /data ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/hg38.tar.gz  
+    tar -xzvf /data/hg38.tar.gz -C /data  
  ---
  
 6. HTseq
@@ -86,7 +80,7 @@ Run the following commands in the terminal of your AWS Linux instance:
  
 7. Installing gencode v28 hg38 gene annotations
 
-    cd /home/fawzi/sequencing/projects/RNA-seq_FRDA/data  
+    cd /home/fawzi/sequencing/projects/RNA-seq_FRDA```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````  
     wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/gencode.v28.annotation.gtf.gz  
     gunzip gencode.v28.annotation.gtf.gz  
 ---
