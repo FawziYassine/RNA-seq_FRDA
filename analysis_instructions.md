@@ -32,7 +32,7 @@ Run the following commands in the terminal of your AWS Linux instance:
 
   
         wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2 -P ~/sequencing/tools/  
-        tar -vxjf samtools-1.9.tar.bz2 -C ~/sequencing/tools/ 
+        tar -vxjf ~/sequencing/tools/samtools-1.9.tar.bz2 -C ~/sequencing/tools/ 
     
   Install updates and required packages on Ubuntu 18.04 (for running make):  
     
