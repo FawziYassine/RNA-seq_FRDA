@@ -18,8 +18,8 @@ Run the following commands in the terminal of your AWS Linux instance:
 2. Installing SRA Toolkit
 
   
-    wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz  
-    tar -xvzf sratoolkit.current-ubuntu64.tar.gz  
+                    wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz  
+                    tar -xvzf sratoolkit.current-ubuntu64.tar.gz  
   
   Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
                            
