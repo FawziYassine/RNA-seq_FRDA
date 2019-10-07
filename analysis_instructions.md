@@ -99,9 +99,9 @@ Run the following commands sequentially:
     nohup sh bash-scripts/download-sra-reads.sh > download-sra-reads.out &       
 ---
 
-10.   Align (map) the reads of each sample to the Human Genome hg32 using HISAT2. 
+10. Align (map) the reads of each sample to the Human Genome hg32 using HISAT2. 
                                                                      
-     nohup sh bash-scripts/hisat2.sh > hisat2.out &
+      nohup sh bash-scripts/hisat2.sh > hisat2.out &
 ---
 
 11. Quantify the abundance of genes in each sample using HTseq.
@@ -111,4 +111,4 @@ Run the following commands sequentially:
  
 12. Differential Expression Analysis using Deseq2.
 
-Run the script [DEGs_analysis_script.R](DEGs_analysis_script.R)          
+     Run the script [DEGs_analysis_script.R](DEGs_analysis_script.R)          
