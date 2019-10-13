@@ -73,18 +73,18 @@ Run the following commands in the terminal of your AWS Linux instance:
        tar -xzvf /data/hg38.tar.gz -C /data  
  ---
  
-6. HTseq
-
-       pip install HTSeq== 0.11.1
- ---
- 
-7. Installing gencode v28 hg38 gene annotations
+6. Installing gencode v28 hg38 gene annotations
 
        cd /home/fawzi/sequencing/projects/RNA-seq_FRDA  
        wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/gencode.v28.annotation.gtf.gz  
     gunzip gencode.v28.annotation.gtf.gz  
 ---
 
+7. HTseq
+
+       pip install HTSeq
+ ---
+ 
 8. Generating gene symbols (names) of gencode IDs
 
     sh bash-scripts/gencode.v28.symbols.awk > data/gencode.v28.symbols.txt   
