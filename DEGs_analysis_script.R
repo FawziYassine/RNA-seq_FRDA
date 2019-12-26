@@ -1,13 +1,10 @@
 # R-script for differential expression analysis of Friedreichs_ataxia vs. Control groups.
 # Done by Fawzi Yassine
 # date: 01/02/2019
-# Napierala, J. S., Li, Y., Lu, Y., Lin, K., Hauser, L. A., Lynch, D. R., & Napierala, M. (2017). 
-# Comprehensive analysis of gene expression patterns in Friedreich’s ataxia fibroblasts by RNA sequencing reveals altered levels      536
 
 # install packages and load libraries                                                  
 if(!requireNamespace("BiocManager"))
  install.packages("BiocManager")
-BiocManager::install()
 BiocManager::install(c("DESeq2","genefilter","devtools", "geneplotter", "EnhancedVolcano",  "colorspace", "lazyeval", "tibble"))
 BiocManager::install("ashr")
 install.packages("gplots")
