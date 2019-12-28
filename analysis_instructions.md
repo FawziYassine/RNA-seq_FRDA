@@ -1,4 +1,4 @@
-## Instructions for Initial Setup and Installation of Some Analysis Tools on [AWS Linux instance](https://aws.amazon.com/amazon-linux-ami/)
+## Instructions for Initial Setup and Installation of the Analysis Tools on [AWS Linux instance](https://aws.amazon.com/amazon-linux-ami/)
 
 Run the following commands in the terminal of your AWS Linux instance:
 
@@ -86,7 +86,7 @@ Run the following commands in the terminal of your AWS Linux instance:
 
 ## Instructions for the Execution of Analysis Tools 
 
-Run the following commands sequentially:
+*                                                                                                                                                                                                               Run the following commands sequentially:
 
 9. Download the reads of each sample from SRA using SRA Toolkit.
 
@@ -102,4 +102,4 @@ Run the following commands sequentially:
       
        nohup sh bash-scripts/htseq-count.sh > htseq-count.out 
 
-Run the script [DEGs_analysis_script.R](DEGs_analysis_script.R)          
+* Run the script [DEGs_analysis_script.R](DEGs_analysis_script.R)          
