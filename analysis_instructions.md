@@ -17,7 +17,7 @@ Run the following commands in the terminal of your AWS Linux instance:
 2. Installing SRA Toolkit
 
         wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz 
-        tar -xvzf ~/sequencing/tools/sratoolkit.current-ubuntu64.tar.gz -C ~/sequencing/tools/ 
+        tar -xvzf ~/sequencing/tools/sratoolkit.current-ubuntu64.tar.gz -C ~/sequencing/tools/   
 Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
                            
         export PATH=$PATH:/home/fawzi/sequencing/tools/sratoolkit.2.9.6-1-ubuntu64/bin  
@@ -27,6 +27,7 @@ Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:
 
         wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2 -P ~/sequencing/tools/  
         tar -vxjf ~/sequencing/tools/samtools-1.9.tar.bz2 -C ~/sequencing/tools/
+        ---
 Install updates and required packages on Ubuntu 18.04 (for running make):  
   
         cd ~/sequencing/tools/samtools-1.9/ 
