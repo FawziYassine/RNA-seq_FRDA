@@ -75,7 +75,7 @@ Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:
  
 8. Generating gene symbols (names) of gencode IDs
 
-       sh scripts/gencode.v28.symbols.awk > data/gencode.v28.symbols.txt
+       sh gencode.v28.symbols.awk > data/gencode.v28.symbols.txt
 
 ## Instructions for the Execution of Analysis Tools 
 
@@ -83,16 +83,16 @@ Run the following commands sequentially:
 
 9. Download the reads of each sample from SRA using SRA Toolkit.
 
-       nohup sh scripts/download-sra-reads.sh > download-sra-reads.out &
+       nohup sh bash-scripts/download-sra-reads.sh > download-sra-reads.out &
 
 
 9. Align (map) the reads of each sample to the Human Genome hg32 using HISAT2. 
                                                                      
-       nohup sh scripts/hisat2.sh > hisat2.out &
+       nohup sh bash-scripts/hisat2.sh > hisat2.out &
 
 
 9. Quantify the abundance of genes in each sample using HTseq.
       
-       nohup sh scripts/htseq-count.sh > htseq-count.out 
+       nohup sh bash-scripts/htseq-count.sh > htseq-count.out 
 
 Run the script [DEGs_analysis_script.R](DEGs_analysis_script.R)          
