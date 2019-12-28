@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # Instructions for Initial Setup and Installation of Some Analysis Tools on [AWS Linux instance](https://aws.amazon.com/amazon-linux-ami/)
 
 Run the following commands in the terminal of your AWS Linux instance:
@@ -13,28 +18,21 @@ Run the following commands in the terminal of your AWS Linux instance:
         mkdir sequencing/projects/RNA-seq_FRDA  
         sudo chmod -R ugo+rwx /data 
         cd sequencing/tools
----
 
 2. Installing SRA Toolkit
 
-  
-        wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz -P ~/sequencing/tools/ 
+        wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz 
         tar -xvzf ~/sequencing/tools/sratoolkit.current-ubuntu64.tar.gz -C ~/sequencing/tools/ 
-  
-  Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
+Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
                            
         export PATH=$PATH:/home/fawzi/sequencing/tools/sratoolkit.2.9.6-1-ubuntu64/bin  
-  
         source ~/.bashrc  
----
 
 3. SAMtools
 
-  
         wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2 -P ~/sequencing/tools/  
-        tar -vxjf ~/sequencing/tools/samtools-1.9.tar.bz2 -C ~/sequencing/tools/ 
-    
-  Install updates and required packages on Ubuntu 18.04 (for running make):  
+        tar -vxjf ~/sequencing/tools/samtools-1.9.tar.bz2 -C ~/sequencing/tools/
+Install updates and required packages on Ubuntu 18.04 (for running make):  
   
         cd ~/sequencing/tools/samtools-1.9/ 
         sudo apt-get update  
@@ -46,69 +44,55 @@ Run the following commands in the terminal of your AWS Linux instance:
         sudo apt-get install libncursesw5-dev  
         sudo apt-get install liblzma-dev  
         make  
-  
-  Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
+Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
     
         export PATH=$PATH:/home/fawzi/sequencing/tools/samtools-1.9  
-
         source ~/.bashrc  
----
 
 4. HISAT2
 
        wget http://ccb.jhu.edu/software/hisat2/dl/hisat2-2.1.0-Linux_x86_64.zip -P ~/sequencing/tools/  
-       unzip ~/sequencing/tools/hisat2-2.1.0-Linux_x86_64.zip -d ~/sequencing/tools/ 
-    
-    
-  Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
+       unzip ~/sequencing/tools/hisat2-2.1.0-Linux_x86_64.zip -d ~/sequencing/tools
+Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
     
        export PATH=$PATH:/home/fawzi/sequencing/tools/hisat2-2.1.0   
- 
        source ~/.bashrc 
----
-
+       
 5. Installing UCSC Genome hg38 index
 
        wget  ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/hg38.tar.gz -P /data   
        tar -xzvf /data/hg38.tar.gz -C /data  
- ---
  
 6. Installing gencode v28 hg38 gene annotations
 
        cd /home/fawzi/sequencing/projects/RNA-seq_FRDA  
        wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/gencode.v28.annotation.gtf.gz  
-    gunzip gencode.v28.annotation.gtf.gz  
----
+       gunzip gencode.v28.annotation.gtf.gz  
 
 7. HTseq
 
        pip install HTSeq
- ---
  
 8. Generating gene symbols (names) of gencode IDs
 
-    sh bash-scripts/gencode.v28.symbols.awk > data/gencode.v28.symbols.txt   
----
+       sh scripts/gencode.v28.symbols.awk > data/gencode.v28.symbols.txt
 
-# Instructions for the Execution of Analysis Tools 
+## Instructions for the Execution of Analysis Tools 
 
 Run the following commands sequentially:
 
 9. Download the reads of each sample from SRA using SRA Toolkit.
 
-    nohup sh bash-scripts/download-sra-reads.sh > download-sra-reads.out &       
----
+       nohup sh scripts/download-sra-reads.sh > download-sra-reads.out &
 
-10. Align (map) the reads of each sample to the Human Genome hg32 using HISAT2. 
+9. Align (map) the reads of each sample to the Human Genome hg32 using HISAT2. 
                                                                      
-      nohup sh bash-scripts/hisat2.sh > hisat2.out &
----
+       nohup sh scripts/hisat2.sh > hisat2.out &
 
-11. Quantify the abundance of genes in each sample using HTseq.
+9. Quantify the abundance of genes in each sample using HTseq.
       
-     nohup sh bash-scripts/htseq.sh > htseq.out &
- ---
+       nohup sh scripts/htseq-count.sh > htseq-count.out &
  
-12. Differential Expression Analysis using Deseq2.
+ 9. Differential Expression Analysis using Deseq2.
 
      Run the script [DEGs_analysis_script.R](DEGs_analysis_script.R)          
