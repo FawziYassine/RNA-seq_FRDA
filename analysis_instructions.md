@@ -27,8 +27,9 @@ Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:
 
         wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2 -P ~/sequencing/tools/  
         tar -vxjf ~/sequencing/tools/samtools-1.9.tar.bz2 -C ~/sequencing/tools/
+      
         ---
-Install updates and required packages on Ubuntu 18.04 (for running make):  
+        Install updates and required packages on Ubuntu 18.04 (for running make):  
   
         cd ~/sequencing/tools/samtools-1.9/ 
         sudo apt-get update  
