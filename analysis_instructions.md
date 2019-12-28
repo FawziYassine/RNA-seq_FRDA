@@ -1,4 +1,4 @@
-# Instructions for Initial Setup and Installation of Some Analysis Tools on [AWS Linux instance](https://aws.amazon.com/amazon-linux-ami/)
+## Instructions for Initial Setup and Installation of Some Analysis Tools on [AWS Linux instance](https://aws.amazon.com/amazon-linux-ami/)
 
 Run the following commands in the terminal of your AWS Linux instance:
 
@@ -18,7 +18,10 @@ Run the following commands in the terminal of your AWS Linux instance:
 
         wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz 
         tar -xvzf ~/sequencing/tools/sratoolkit.current-ubuntu64.tar.gz -C ~/sequencing/tools/   
-Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
+          
+        ---
+        Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:
+        ---
                            
         export PATH=$PATH:/home/fawzi/sequencing/tools/sratoolkit.2.9.6-1-ubuntu64/bin  
         source ~/.bashrc  
@@ -29,7 +32,8 @@ Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:
         tar -vxjf ~/sequencing/tools/samtools-1.9.tar.bz2 -C ~/sequencing/tools/
       
         ---
-        Install updates and required packages on Ubuntu 18.04 (for running make):  
+        Install updates and required packages on Ubuntu 18.04 (for running make):
+        ---
   
         cd ~/sequencing/tools/samtools-1.9/ 
         sudo apt-get update  
@@ -40,8 +44,11 @@ Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:
         sudo apt-get install libncurses5-dev  
         sudo apt-get install libncursesw5-dev  
         sudo apt-get install liblzma-dev  
-        make  
-Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
+        make   
+          
+        --- 
+        Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:
+        ---
     
         export PATH=$PATH:/home/fawzi/sequencing/tools/samtools-1.9  
         source ~/.bashrc  
@@ -49,8 +56,11 @@ Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:
 4. HISAT2
 
        wget http://ccb.jhu.edu/software/hisat2/dl/hisat2-2.1.0-Linux_x86_64.zip -P ~/sequencing/tools/  
-       unzip ~/sequencing/tools/hisat2-2.1.0-Linux_x86_64.zip -d ~/sequencing/tools
-Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:  
+       unzip ~/sequencing/tools/hisat2-2.1.0-Linux_x86_64.zip -d ~/sequencing/tools   
+          
+        ---
+        Edit /home/fawzi/.bashrc to insert the followig line at the end of the file:
+        ---
     
        export PATH=$PATH:/home/fawzi/sequencing/tools/hisat2-2.1.0   
        source ~/.bashrc 
