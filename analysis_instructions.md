@@ -100,6 +100,6 @@ Run the following commands in the terminal of your AWS Linux instance:
 
 9. Quantify the abundance of genes in each sample using HTseq.
       
-       nohup sh bash-scripts/htseq-count.sh > htseq-count.out 
+       nohup sh bash-scripts/htseq-count.sh > htseq-count.out &
 
 * Run the script [DEGs_analysis_script.R](DEGs_analysis_script.R)          
