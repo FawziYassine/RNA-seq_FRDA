@@ -1,9 +1,10 @@
 [1.Instructions for Initial Setup and Installation of the Analysis Tools](#a1)  
+   
 [2.Instructions for the Execution of the Analysis](#a2)
               
 
 
-## 1. <a name="a1">Instructions for Initial Setup and Installation of the Analysis Tools</a>
+## 1. <a name="a1">Instructions for Initial Setup and Installation of the Analysis Tools</a>  
   
   ***Run the following commands in the terminal of your AWS Linux instance:***            
 
@@ -88,15 +89,15 @@
 
 9. Downloading the reads of each sample from SRA using SRA Toolkit.
 
-       nohup sh scripts/download-sra-reads.sh > download-sra-reads.out &
+       nohup sh bash-scripts/download-sra-reads.sh > download-sra-reads.out &
 
 9. Aligning (mapping) the reads of each sample to the Human Genome hg32 using HISAT2. 
                                                                      
-       nohup sh scripts/hisat2.sh > hisat2.out &
+       nohup sh bash-scripts/hisat2.sh > hisat2.out &
 
 9. Quantifying the abundance of genes in each sample using HTseq.
       
-       nohup sh scripts/htseq-count.sh > htseq-count.out &
+       nohup sh bash-scripts/htseq-count.sh > htseq-count.out &
      
-9. Analysis using R:
+9. Analysis using R:  
   ***Run the script [DEGs_analysis_script.R](DEGs_analysis_script.R)***  
