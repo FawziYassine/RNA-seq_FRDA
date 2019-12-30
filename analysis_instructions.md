@@ -91,15 +91,7 @@
 
 9. Quantifying the abundance of genes in each sample using HTseq.
       
-       nohup sxh scripts/htseq-count.sh > htseq-count.out &
+       nohup sh scripts/htseq-count.sh > htseq-count.out &
      
 9. Analysis using R:
-  + Merging the Count Files:  
-  ***Run the script [merge_counts.R](scripts/merge_counts.R)***  
-  + Exploratory Analysis:  
-  ***Run the script [exploratory_analysis.R](scripts/exploratory_analysis.R)***  
-  + Differential Expression Analysis:   
-  ***Run the script [differential_expression_analysis.R](scripts/differential_expression_analysis.R)***  
-  + Epigenetics and Expression Analysis:  
-  ***Run the script [epigenetics_expression.R](scripts/epigenetics_expression.R)***
-     
+  ***Run the script [DEGs_analysis_script.R](DEGs_analysis_script.R)***  
