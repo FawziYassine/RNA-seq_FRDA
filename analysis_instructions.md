@@ -1,4 +1,8 @@
-## 1. Instructions for Initial Setup and Installation of the Analysis Tools on [AWS Linux Instance](https://aws.amazon.com/amazon-linux-ami/)
+[Instructions for the Execution of the Analysis](#a2)
+              
+
+
+## 1. <a name="a1">Instructions for Initial Setup and Installation of the Analysis Tools</a>
   
   ***Run the following commands in the terminal of your AWS Linux instance:***            
 
@@ -75,9 +79,9 @@
  
 8. Generating gene symbols (names) of gencode IDs
 
-       sh scripts/gencode.v28.symbols.awk > gencode.v28.symbols.txt
+       sh gencode.v28.symbols.awk > gencode.v28.symbols.txt
 
-## 2. Instructions for the Execution of Analysis Tools 
+## 2. <a name="a2">Instructions for the Execution of the Analysis</a> 
  
 ***Run the following commands sequentially:***
 
