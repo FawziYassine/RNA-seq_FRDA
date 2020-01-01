@@ -75,7 +75,7 @@
        wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_28/gencode.v28.annotation.gtf.gz  
        gunzip gencode.v28.annotation.gtf.gz  
 
-7. HTseq
+7. Installing HTseq
 
        pip install HTSeq
  
