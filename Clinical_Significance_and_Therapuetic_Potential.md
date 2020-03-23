@@ -23,7 +23,7 @@ In comparison with the **CTRL** group, the **FRDA** group showed a direct and si
 **NQO1** is an enzyme that is encoded by the NQO1 gene. It is a 2-electron reductase that forms homodimers and performs two-electron reduction of quinones to hydroquinones.  
 **TXN2** is a member of the thioredoxin family, a group of small multifunctional redox-active proteins. The encoded protein may play important roles in the regulation of the mitochondrial membrane potential and in protection against oxidant-induced apoptosis.  
 
-**PRKAG1** encodes one of three subunits of the enzyme **AMPK**, (Adenosine 5′ Monophosphate-Activated Protein Kinase). **AMPK** plays a role in cellular energy homeostasis. Studies have shown 	that **AMPK** increases the production of certain antioxidant proteins, including **Nrf2**, **SOD**, **HO-1**, **NRF1** (Nuclear Respiratory Factor 1), and **PGC-1α**  (peroxisome proliferator-activated receptor gamma coactivator 1 α) (Joo et al., 2016; Kukidome et al., 2006).  
+**PRKAG1** encodes one of three subunits of the enzyme **AMPK** (Adenosine 5′ Monophosphate-Activated Protein Kinase). **AMPK** plays a role in cellular energy homeostasis. Studies have shown 	that **AMPK** increases the production of certain antioxidant proteins, including **Nrf2**, **SOD**, **HO-1**, **NRF1** (Nuclear Respiratory Factor 1), and **PGC-1α**  (peroxisome proliferator-activated receptor gamma coactivator 1 α) (Joo et al., 2016; Kukidome et al., 2006).  
 
   
 # The Therapuetic Potential of Sulforaphane
