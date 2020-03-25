@@ -5,7 +5,7 @@ P.S: You might want to read the [Experiment Results](Results.md) before you con
 
 The authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
 
-# 2.   Antioxidants and **FRDA** 
+# 2.   Antioxidants Defense System in **FRDA** 
 
 During energy production, the oxidation of carbon-containing nutrients in the **Krebs cycle** and the Electron Transport Chain (**ETC**) inside the mitochondria causes the production of free radicals or Reactive Oxygen Species (**ROS**). These radicals result from the reduction of O2 with proteins in the mitochondrial membrane. Example free radicals are superoxide, hydroxylradical, and hydrogen peroxide.  
 
