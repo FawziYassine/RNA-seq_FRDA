@@ -1,6 +1,5 @@
-P.S: You might need to read the [Experiment Results](Results.md) before you continue.
+P.S: You might want to read the [Experiment Results](Results.md) before you continue.
 -----
-
 
 # 1.   Introduction
 
