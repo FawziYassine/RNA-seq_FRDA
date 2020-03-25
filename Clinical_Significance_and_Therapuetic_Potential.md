@@ -1,12 +1,12 @@
-P.S: Visit the [Results](Results.md) page before you continue on this page.  
+P.S: You might need to read the [Experiment Results](Results.md) before you continue.
 -----
 
 
-# Introduction
+# 1.   Introduction
 
 The authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
 
-# Antioxidants and **FRDA** 
+# 2.   Antioxidants and **FRDA** 
 
 During energy production, the oxidation of carbon-containing nutrients in the **Krebs cycle** and the Electron Transport Chain (**ETC**) inside the mitochondria causes the production of free radicals or Reactive Oxygen Species (**ROS**). These radicals result from the reduction of O2 with proteins in the mitochondrial membrane. Example free radicals are superoxide, hydroxylradical, and hydrogen peroxide.  
 
@@ -17,6 +17,8 @@ An endogenous cellular defense mechanism against oxidative stress caused by free
 The production of free radicals is exacerbated in FRDA patients where frataxin (FXN) deficiency leads to defects in several mitochondrial functions including Iron–Sulfur Cluster (ISC) assembly. ISC deficiency results in profound deficiencies in the ETC complexes I, II, and III (e.g. ubiquinone and cytochrome-b), and in the Krebs cycle enzyme aconitase; all of which require ISC for electron transfer catalysis (Paupe et al., 2009). This increases ROS production which accounts for the increased susceptibility to oxidative stress.
 
 What makes matters worse for **FRDA** patients is that their endogenous cellular defense mechanism against oxidative stress is defective in three major ways: 1) The **Nrf2** pathway, 2) The **Glutathione** homeostasis, and 3) The **PGC-1α** and **mitochondrial biogenesis** pathways.  
+
+# 3.   Experiment Results Regarding Antioxidant Genes
 
 In comparison with the **CTRL** group, the **FRDA** group showed a direct and significant downregulation of two antioxidant genes: **NQO1**, **TXN2** and **PRKAG1**. The downregulation of **PRKAG1** leads to the downregulation of several other antioxidant genes (like **SOD** and **HO-1**) because **PRKAG1** is involved in their expression.  
 
