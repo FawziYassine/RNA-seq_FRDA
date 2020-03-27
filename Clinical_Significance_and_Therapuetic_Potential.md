@@ -11,7 +11,7 @@ During energy production, the oxidation of carbon-containing nutrients in the **
 
 An endogenous cellular defense mechanism against oxidative stress caused by free radicals is to increase the transcription of genes that express several non-enzymatic and enzymatic antioxidants (phase II antioxidants), in addition to anti-inflammatory, and detoxification enzymes. Enzymatic antioxidants include Superoxide dismutase (**SOD**), Catalase (**CAT**), glutathione peroxidase (**GPx**) glutathione reductase (**GR**), heme oxygenase-1 (**HO-1**), NAD(P)H:quinone oxidoreductase 1 (**NQO1**).  
 
-**SOD** can break down superoxide into hydrogen peroxide (**H2O2**) and oxygen. **CAT** works by converting **H2O2** into water and oxygen, using iron and manganese cofactors. It finishes up the detoxifiCation process started by **SOD**. **GPx** is a selenium-containing enzyme that helps break down **H2O2** into water. **GR** is a NADPH-dependent flavoprotein that catalyzes the reduction of glutathione disulfide (GSSG) to GSH. **HO-1** attenuates endothelial cell apoptosis and decreases the superoxide anion (O2-) by products of oxidative phosphorylation and converts them to hydrogen peroxide and diatomic oxygen. superoxide is a major source of **ROS** formation.  
+**SOD** can break down superoxide into hydrogen peroxide (**H2O2**) and oxygen. **CAT** works by converting **H2O2** into water and oxygen, using iron and manganese cofactors. It finishes up the detoxifiCation process started by **SOD**. **GPx** is a selenium-containing enzyme that helps break down **H2O2** into water. **GR** is a NADPH-dependent flavoprotein that catalyzes the reduction of glutathione disulfide (GSSG) to GSH.  
 
 The production of free radicals is exacerbated in FRDA patients where frataxin (FXN) deficiency leads to defects in several mitochondrial functions including Iron–Sulfur Cluster (ISC) assembly. ISC deficiency results in profound deficiencies in the ETC complexes I, II, and III (e.g. ubiquinone and cytochrome-b), and in the Krebs cycle enzyme aconitase; all of which require ISC for electron transfer catalysis (Paupe et al., 2009). This increases ROS production which accounts for the increased susceptibility to oxidative stress.
 
@@ -28,6 +28,8 @@ In comparison with the **CTRL** group, the **FRDA** group showed a direct and si
 
   
 # The Therapuetic Potential of Sulforaphane
+
+Not only the production of free radicals is exacerbated in **FRDA** patients because of **FXN** deficiency which leads to increased ROS production, but their endogenous cellular defense against oxidative stress is defective in three major mechanisms: 1) The **Nrf2** pathway, 2) The **Glutathione** homeostasis, and 3) The **PGC-1α** and mitochondrial biogenesis pathways.
 
 Sulforaphane (**SFN**) which is a phytochemical found in Broccoli sprouts is able to correct these three defects, and this is shown in sections [2.1.1](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.1), [2.1.2](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.2) and [2.1.3](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.3) respectively in [my article](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/) where I further highlight the genetic and other molecular mechanisms through which **SFN** might confer therapeutic benefits to **FRDA** patients. 
 
