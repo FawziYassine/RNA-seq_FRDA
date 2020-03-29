@@ -1,7 +1,9 @@
 P.S: You might want to read the [Experiment Results](Results.md) before you continue.
 -----
 
-# 1.   Project Introduction
+# 1.   Introduction
+
+Here, I will discuss the clinical significance of these results regarding the endogenous antioxidants defense system in  FRDA, and the therapeutic potential of sulforaphane.
 
 The authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
 
