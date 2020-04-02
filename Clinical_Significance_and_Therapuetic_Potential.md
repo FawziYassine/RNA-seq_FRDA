@@ -1,10 +1,10 @@
+*abstract– In this article, I will discuss the clinical significance of the [Experiment Results](Results.md) regarding the endogenous antioxidants defense system in  FRDA, and the therapeutic potential of sulforaphane.*
+
 # 1.   Introduction
 
-Here, I will discuss the clinical significance of the [Experiment Results](Results.md) regarding the endogenous antioxidants defense system in  FRDA, and the therapeutic potential of sulforaphane.
+Friedreich’s Ataxia (FRDA) is a neurodegenerative disease, and the most common hereditary ataxia, where it affects one individual in 50,000. This disease is characterized by the progressive degeneration of the central and peripheral nervous systems, life-threatening cardiomyopathy, and increased incidence of diabetes mellitus. Most of the neurological symptoms result from neurodegeneration in the dorsal root ganglia (DRG), with the loss of large sensory neurons and posterior columns, followed by degeneration in the spinocerebellar and corticospinal tracts of the spinal cord (Koeppen, 2011). FRDA is caused by a mutation (GAA triplet repeat) in the first intron of the Frataxin (FXN) gene, which is localized on 9q21.11 and encodes a 210 amino-acid mitochondrial protein called frataxin. This mutation leads to decreased frataxin expression (Campuzano et al., 1996).
 
 The authors in (Napierala et al., 2017) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
-
-Friedreich’s Ataxia (FRDA) is a neurodegenerative disease, and the most common hereditary ataxia, where it affects one individual in 50,000. This disease is characterized by the progressive degeneration of the central and peripheral nervous systems, life-threatening cardiomyopathy, and increased incidence of diabetes mellitus. Most of the neurological symptoms result from neurodegeneration in the dorsal root ganglia (DRG), with the loss of large sensory neurons and posterior columns, followed by degeneration in the spinocerebellar and corticospinal tracts of the spinal cord (Koeppen, 2011). FRDA is caused by a mutation (GAA triplet repeat) in the first intron of the Frataxin (FXN) gene, which is localized on 9q21.11 and encodes a 210 amino-acid mitochondrial protein called frataxin. This mutation leads to decreased frataxin expression (Campuzano et al., 1996).
 
 # 2.   The Antioxidant Defense System is Defective in **FRDA** 
 
