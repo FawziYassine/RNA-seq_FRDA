@@ -2,7 +2,9 @@
 
 Here, I will discuss the clinical significance of the [Experiment Results](Results.md) regarding the endogenous antioxidants defense system in  FRDA, and the therapeutic potential of sulforaphane.
 
-The authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
+The authors in (Napierala et al., 2017) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
+
+Friedreich’s Ataxia (FRDA) is a neurodegenerative disease, and the most common hereditary ataxia, where it affects one individual in 50,000. This disease is characterized by the progressive degeneration of the central and peripheral nervous systems, life-threatening cardiomyopathy, and increased incidence of diabetes mellitus. Most of the neurological symptoms result from neurodegeneration in the dorsal root ganglia (DRG), with the loss of large sensory neurons and posterior columns, followed by degeneration in the spinocerebellar and corticospinal tracts of the spinal cord (Koeppen, 2011). FRDA is caused by a mutation (GAA triplet repeat) in the first intron of the Frataxin (FXN) gene, which is localized on 9q21.11 and encodes a 210 amino-acid mitochondrial protein called frataxin. This mutation leads to decreased frataxin expression (Campuzano et al., 1996).
 
 # 2.   The Antioxidant Defense System is Defective in **FRDA** 
 
@@ -35,9 +37,13 @@ Moreover, sulforaphane has been shown to activate **AMPK** (Choi et al., 2014).
 
 # 5.   References
 
+- Campuzano, V., Montermini, L., Moltò, M. D., Pianese, L., Cossée, M., Cavalcanti, F., … Pandolfo, M. (1996). Friedreich{\textquoteright}s Ataxia: Autosomal Recessive Disease Caused by an Intronic GAA Triplet Repeat Expansion. Science, 271(5254), 1423–1427. https://doi.org/10.1126/science.271.5254.1423
+
 - Choi, K. M., Lee, Y. S., Kim, W., Kim, S. J., Shin, K. O., Yu, J. Y., et al. (2014). Sulforaphane attenuates obesity by inhibiting adipogenesis and activating the AMPK pathway in obese mice. J. Nutr. Biochem. 25, 201–207. doi: 10.1016/j.jnutbio.2013.10.007
 
 - Joo, M. S., Kim, W. D., Lee, K. Y., Kim, J. H., Koo, J. H., & Kim, S. G. (2016). AMPK       Facilitates Nuclear Accumulation of Nrf2 by Phosphorylating at Serine 550. Molecular and Cellular Biology, 36(14), 1931–1942. https://doi.org/10.1128/MCB.00118-16
+
+- Koeppen, A. H. (2011). Friedreich’s ataxia: Pathology, pathogenesis, and molecular genetics. Journal of the Neurological Sciences, 303(1–2), 1–12. https://doi.org/10.1016/j.jns.2011.01.010
 
 - Kukidome, D., Nishikawa, T., Sonoda, K., Imoto, K., Fujisawa, K., Yano, M., … Araki, E. (2006). Activation of AMP-Activated Protein Kinase Reduces Hyperglycemia-Induced Mitochondrial Reactive Oxygen Species Production and Promotes Mitochondrial Biogenesis in Human Umbilical Vein Endothelial Cells. Diabetes, 55(1), 120 LP – 127. https://doi.org/10.2337/diabetes.55.01.06.db05-0943
 
