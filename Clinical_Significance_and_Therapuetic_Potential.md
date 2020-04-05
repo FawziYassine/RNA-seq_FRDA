@@ -43,6 +43,8 @@ Moreover, sulforaphane has been shown to activate **AMPK** (Choi et al., 2014).
 
 - Campuzano, V., Montermini, L., Moltò, M. D., Pianese, L., Cossée, M., Cavalcanti, F., …Pandolfo, M. (1996). Friedreich's Ataxia: Autosomal Recessive Disease Caused by an Intronic GAA Triplet Repeat Expansion. Science, 271(5254), 1423–1427. https://doi.org/10.1126/science.271.5254.1423
 
+- Choi, K. M., Lee, Y. S., Kim, W., Kim, S. J., Shin, K. O., Yu, J. Y., et al. (2014). Sulforaphane attenuates obesity by inhibiting adipogenesis and activating the AMPK pathway in obese mice. J. Nutr. Biochem. 25, 201–207. doi:    10.1016/j.jnutbio.2013.10.007
+
 - D’Oria, V., Petrini, S., Travaglini, L., Priori, C., Piermarini, E., Petrillo, S., … Piemonte, F. (2013). Frataxin deficiency leads to reduced expression and impaired translocation of NF-E2-Related factor (Nrf2) in cultured motor neurons. International Journal of Molecular Sciences, 14(4), 7853–7865. https://doi.org/10.3390/ijms14047853
 
 - Dinkova-kostova, A. T., Fahey, J. W., Kostov, R. V, & Kensler, T. W. (2017). Trends in Food Science & Technology KEAP1 and done ? Targeting the NRF2 pathway with sulforaphane. Trends in Food Science & Technology, 69, 257–269. https://doi.org/10.1016/j.tifs.2017.02.002 Choi, K. M., Lee, Y. S., Kim, W., Kim, S. J., Shin, K. O., Yu, J. Y., et al. (2014). Sulforaphane attenuates obesity by inhibiting adipogenesis and activating the AMPK pathway in obese mice. J. Nutr. Biochem. 25, 201–207. doi: 10.1016/j.jnutbio.2013.10.007
