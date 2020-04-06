@@ -1,10 +1,12 @@
-*abstract– In this article, I will discuss the clinical significance of the [Experiment Results](Results.md) regarding the endogenous antioxidants defense system in  FRDA, and the therapeutic potential of sulforaphane.*
+*abstract– In this article, I will discuss the clinical significance of the [Experiment Results](Results.md) regarding the antioxidant defense system in **FRDA**, and the therapeutic potential of sulforaphane.*
 
 # 1.   Introduction
 
-Friedreich’s Ataxia (FRDA) is a neurodegenerative disease, and the most common hereditary ataxia, where it affects one individual in 50,000. This disease is characterized by the progressive degeneration of the central and peripheral nervous systems, life-threatening cardiomyopathy, and increased incidence of diabetes mellitus. Most of the neurological symptoms result from neurodegeneration in the dorsal root ganglia (DRG), with the loss of large sensory neurons and posterior columns, followed by degeneration in the spinocerebellar and corticospinal tracts of the spinal cord (Koeppen, 2011). FRDA is caused by a mutation (GAA triplet repeat) in the first intron of the Frataxin (FXN) gene, which is localized on 9q21.11 and encodes a 210 amino-acid mitochondrial protein called frataxin. This mutation leads to decreased frataxin expression (Campuzano et al., 1996).
+In this article, I will show how the endogenous antioxidants defense system is defective in **FRDA**, and how sulforaphane can correct this defect.
 
-The authors in (Napierala et al., 2017) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
+Friedreich’s Ataxia (**FRDA**) is a neurodegenerative disease, and the most common hereditary ataxia, where it affects one individual in 50,000. This disease is characterized by the progressive degeneration of the central and peripheral nervous systems, life-threatening cardiomyopathy, and increased incidence of diabetes mellitus. Most of the neurological symptoms result from neurodegeneration in the dorsal root ganglia (DRG), with the loss of large sensory neurons and posterior columns, followed by degeneration in the spinocerebellar and corticospinal tracts of the spinal cord (Koeppen, 2011). **FRDA** is caused by a mutation (GAA triplet repeat) in the first intron of the Frataxin (**FXN**) gene, which is localized on 9q21.11 and encodes a 210 amino-acid mitochondrial protein called frataxin. This mutation leads to decreased frataxin expression (Campuzano et al., 1996).
+
+The authors in (Napierala et al., 2017) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells because these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
 
 # 2.   The Antioxidant Defense System is Defective in **FRDA** 
 
@@ -35,7 +37,6 @@ Not only the production of free radicals is exacerbated in **FRDA** patients bec
 
 Sulforaphane (**SFN**) which is a phytochemical found in Broccoli sprouts is able to correct these three defects, and this is shown in sections [2.1.1](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.1), [2.1.2](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.2) and [2.1.3](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.3) respectively in [my article](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/) where I further highlight the genetic and other molecular mechanisms through which **SFN** might confer therapeutic benefits to **FRDA** patients. 
 
-Moreover, sulforaphane has been shown to activate **AMPK** (Choi et al., 2014).
 
 # 5.   References  
 
