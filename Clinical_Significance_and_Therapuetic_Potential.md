@@ -4,13 +4,15 @@
 
 In this article, I will show how the endogenous antioxidants defense system is defective in **FRDA**, and how **SFN** can correct this defect.
 
-**FRDA** is a neurodegenerative disease, and the most common hereditary ataxia, where it affects one individual in 50,000. This disease is characterized by the progressive degeneration of the central and peripheral nervous systems, life-threatening cardiomyopathy, and increased incidence of diabetes mellitus. Most of the neurological symptoms result from neurodegeneration in the dorsal root ganglia (DRG), with the loss of large sensory neurons and posterior columns, lfollowed by degeneration in the spinocerebellar and corticospinal tracts of the spinal cord (Koeppen, 2011). **FRDA** is caused by a mutation (GAA triplet repeat) in the first intron of the Frataxin (**FXN**) gene, which is localized on 9q21.11 and encodes a 210 amino-acid mitochondrial protein called frataxin. This mutation leads to decreased frataxin expression (Campuzano et al., 1996).
+# 2.   Friedreich’s Ataxia (**FRDA**)
+
+**FRDA** is a neurodegenerative disease, and the most common hereditary ataxia, where it affects one individual in 50,000. This disease is characterized by the progressive degeneration of the central and peripheral nervous systems, life-threatening cardiomyopathy, and increased incidence of diabetes mellitus. Most of the neurological symptoms result from neurodegeneration in the dorsal root ganglia (DRG), with the loss of large sensory neurons and posterior columns, lfollowed by degeneration in the spinocerebellar and corticospinal tracts of the spinal cord (Koeppen, 2011). **FRDA** is caused by a mutation (GAA triplet repeat) in the first intron of the **FXN** gene, which is localized on 9q21.11 and encodes a 210 amino-acid mitochondrial protein called **Frataxin**. This mutation leads to decreased **Frataxin** expression (Campuzano et al., 1996).
 
 It is known from the literature that an effective treatment approach for **FRDA** is to activate the **Nrf2** pathway (Brandes et al. 2020; Petrillo et al., 2017). Omaveloxolone (RTA 408) is a pharmaceutical compound being tested in the MOXIe clinical trial ([NCT02255435](https://clinicaltrials.gov/ct2/show/NCT02255435)) targeting **FRDA** patients. Omaveloxolone promotes the cellular antioxidative potential through the activation of **Nrf2** (Reisman et al., 2019). Omaveloxolone is the most advanced **FRDA** research therapeutic candidate for **FRDA** as shown in [Friedreich’s Ataxia Treatment Pipeline](http://www.curefa.org/pipeline) which is a visual tool for communicating the progress of research and development on lead therapeutic candidates for **FRDA**. Another potent **Nrf2** activator is the natural pharmacological compound **SFN** which is a phytochemical found in Broccoli sprouts.
 
-The authors in (Napierala et al., 2017) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells because these cells are the most defective ones in Friedreich’s Ataxia (**FRDA**) disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
+The authors in (Napierala et al., 2017) have used fibroblast cell lines in their sequencing experiment. They should have used nerve or heart cells because these cells are the most defective ones in **FRDA** disease. Even then, I am still able to find significantly differentiated genes between **FRDA** group (18 samples) and Control (**CTRL**) group (17 samples) in this experiment. Interestingly, antioxidant genes were downregulated in **FRDA** cells.
 
-# 2.   The Antioxidant Defense System is Defective in **FRDA** 
+# 3.   The Antioxidant Defense System is Defective in **FRDA** 
 
 During energy production, the oxidation of carbon-containing nutrients in the **Krebs cycle** and the Electron Transport Chain (**ETC**) inside the mitochondria causes the production of free radicals or Reactive Oxygen Species (**ROS**). These radicals result from the reduction of O2 with proteins in the mitochondrial membrane. Examples of free radicals are superoxide, hydroxylradical, and hydrogen peroxide.  
 
@@ -20,7 +22,7 @@ The production of **ROS** is exacerbated in **FRDA** patients because of the fra
  
 What makes matters worse for **FRDA** patients is that their endogenous cellular defense mechanism against oxidative stress is defective in three major ways: 1) The **Nrf2** pathway, 2) The **Glutathione** homeostasis, and 3) The **PGC-1α** and mitochondrial biogenesis pathways.  
   
-# 3.   Experiment Results Regarding Antioxidant Genes
+# 4.   Experiment Results Regarding Antioxidant Genes
 
 The analysis of this experiment showed that in comparison with the **CTRL** group, the **FRDA** group showed a direct and significant downregulation of two antioxidant genes: **NQO1**, **TXN2** and **PRKAG1**. The downregulation of **PRKAG1** leads to the downregulation of several other antioxidant genes (like **SOD** and **HO-1**) because **PRKAG1**  is involved in their expression.  
 Moreover, **PRKAG1** encodes one of three subunits of the enzyme **AMPK** (Adenosine 5′ Monophosphate-Activated Protein Kinase). **AMPK** plays a role in cellular energy homeostasis. Studies have shown 	that **AMPK** increases the production of certain antioxidant proteins, including **Nrf2**, **SOD**, **HO-1**, **NRF1** (Nuclear Respiratory Factor 1), and **PGC-1α**  (peroxisome proliferator-activated receptor gamma coactivator 1 α) (Joo et al., 2016; Kukidome et al., 2006).  
@@ -31,14 +33,14 @@ Moreover, **PRKAG1** encodes one of three subunits of the enzyme **AMPK** (Adeno
 **NQO1** is an enzyme that is encoded by the NQO1 gene. It is a 2-electron reductase that forms homodimers and performs two-electron reduction of quinones to hydroquinones.  
 **TXN2** is a member of the thioredoxin family, a group of small multifunctional redox-active proteins. The encoded protein may play important roles in the regulation of the mitochondrial membrane potential and in protection against oxidant-induced apoptosis.  
   
-# 4.   The Therapuetic Potential of Sulforaphane
+# 5.   The Therapuetic Potential of Sulforaphane
 
 Not only the production of free radicals is exacerbated in **FRDA** patients because of frataxin protein deficiency which leads to increased ROS production, but their endogenous cellular defense against oxidative stress is defective in three major mechanisms: 1) The **Nrf2** pathway, 2) The **Glutathione** homeostasis, and 3) The **PGC-1α** and mitochondrial biogenesis pathways.
 
 **SFN** is able to correct these three defects, and this is shown in sections [2.1.1](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.1), [2.1.2](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.2) and [2.1.3](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/#2.1.3) respectively in [my article](https://biohackingfriedreichsataxia.wordpress.com/2018/04/11/FRDA-and-broccoli-sprouts/) where I further highlight the genetic and other molecular mechanisms through which **SFN** might confer therapeutic benefits to **FRDA** patients. 
 
 
-# 5.   References  
+# 6.   References  
 
 -   Brandes, M. S., & Gray, N. E. (2020). NRF2 as a Therapeutic Target in Neurodegenerative Diseases. ASN Neuro. https://doi.org/10.1177/1759091419899782
 
