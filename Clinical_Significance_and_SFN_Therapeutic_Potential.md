@@ -1,4 +1,4 @@
-*abstract– In this article, I will discuss the clinical significance of the [Experiment Results](Results.md) regarding the antioxidant defense system in Friedreich’s Ataxia (**FRDA**), and the therapeutic potential of the natural phytochemical compound sulforaphane (**SFN**)*.
+*abstract-– In this article, I will discuss the clinical significance of the [Experiment Results](Results.md) regarding the antioxidant defense system in Friedreich’s Ataxia (**FRDA**), and the therapeutic potential of the natural phytochemical compound sulforaphane (**SFN**)*.
 
 # 1.   Introduction
 
