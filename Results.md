@@ -45,11 +45,11 @@ Principl Components Analysis (PCA) is used to visualize the sample-to-sample dis
 ### Plot-count of FXN gene
 
 Plot of normalized counts of **FXN**.
-
+cal Significance ancal Significance an
 ![](plots/fxn_counts_plot.png)
 
 ----------
-P.S: Visit the [Clinical Significance and Therapuetic Potential](Clinical_Significance_and_SFN_Therapeutic_Potential.md) page next.
+P.S: Visit the [Clinical Significance and Therapeutic Potential](Clinical_Significance_and_SFN_Therapeutic_Potential.md) page next.
 ----------
 
 # References
