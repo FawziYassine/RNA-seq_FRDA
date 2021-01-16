@@ -49,7 +49,7 @@ Plot of normalized counts of **FXN**.
 ![](plots/fxn_counts_plot.png)
 
 ----------
-P.S: Visit the [Clinical Significance and Therapuetic Potential](Clinical_Significance_and_Therapuetic_Potential.md) page next.
+P.S: Visit the [Clinical Significance and Therapuetic Potential](Clinical_Significance_and_Therapeutic_Potential.md) page next.
 ----------
 
 # References
