@@ -16,7 +16,8 @@ I have used:
 * Pipeline:
    1. [HISAT2 (version 2.1.0)](http://ccb.jhu.edu/software/hisat2/dl/hisat2-2.1.0-Linux_x86_64.zip) for aligning the sequencing reads to the reference genome.
    2. [HTSeq (version 0.11.1)](https://htseq.readthedocs.io/en/release_0.11.1/) for counting how many sequencing reads overlap each gene.
-   3. [DESeq2 (version 1.22.2)](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) for differential expression analysis.  
+   3. [DESeq2 (version 1.22.2)](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) for differential expression analysis.    
+   
 Whereas, the authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)) have used:
 * hg19 Reference Genome.
 * Pipeline:
