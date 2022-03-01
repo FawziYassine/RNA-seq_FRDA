@@ -29,7 +29,7 @@ Analysis Instructions are provided [here](analysis_instructions.md).
 ---
 
 ---
-P.S: Visit the [Results](Results.md) page next.
+P.S: You might want to visit the [Analysis Results](Results.md) page next.
 ---
 
 # References
