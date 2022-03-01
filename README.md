@@ -11,6 +11,7 @@ You might want to visit the [Bioinformatics Analysis Results](Results.md) page n
 ---
 
 P.S: The RNA sequencing experiment was conducted in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)). Moreover, the authors in ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)) have conducted the analysis of RNA-seq data they had collected. However, I have used a **pipeline of analysis tools** and a **Reference Genome** that are newer than those used by ([Napierala et al., 2017](https://www.ncbi.nlm.nih.gov/pubmed/29125828)).  
+
 I have used:
 * [hg38](https://genome.ucsc.edu/cgi-bin/hgTables?hgsid=709643787_uDDcng0XNxj8vtnLm1SAaz9BwRky&clade=mammal&org=&db=hg38&hgta_group=genes&hgta_track=refSeqComposite&hgta_table=ncbiRefSeq&hgta_regionType=genome&position=&hgta_outputType=primaryTable&hgta_outFileName=) Reference Genome.
 * Pipeline:
