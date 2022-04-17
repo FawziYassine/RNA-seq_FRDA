@@ -1,5 +1,3 @@
-
-
 #!/bin/bash
 
 DATADIR=/home/fawzi/sequencing/projects/RNA-seq_FRDA/data
