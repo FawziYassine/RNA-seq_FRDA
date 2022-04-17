@@ -1,6 +1,3 @@
-
-
-
 #!/bin/bash
 
 DATADIR=/home/fawzi/sequencing/projects/RNA-seq_FRDA/data
@@ -18,4 +15,3 @@ done
 printf "\n"
 
 date
-
